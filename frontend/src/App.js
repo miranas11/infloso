@@ -4,6 +4,8 @@ import Signup from "./components/Signup";
 import Home from "./components/Home";
 import ProtectedRoute from "./components/utils/ProtectedRoute";
 
+import "./App.css";
+
 function App() {
     return (
         <Router>

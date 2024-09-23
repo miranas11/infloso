@@ -1,21 +1,4 @@
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 .signup-container {
-    background-color: rgba(26, 35, 50, 0.85);
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-    width: 350px;
 }
 
 .input-box-container {
@@ -28,7 +11,7 @@
     margin-bottom: 20px;
     font-size: 26px;
     font-weight: 600;
-    color: rgb(224, 116, 134);
+    color: #f4f4f9;
 }
 
 .signup-container form {
@@ -120,7 +103,7 @@
 }
 
 .login-link {
-    color: #1db954;
+    color: #1db954; /* Greenish color for the link */
     text-decoration: none;
     font-weight: 600;
 }

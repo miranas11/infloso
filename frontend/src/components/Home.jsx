@@ -11,7 +11,7 @@ const Home = () => {
     };
 
     return (
-        <div className="home-container">
+        <div className="home-container container">
             <div className="welcome-section">
                 <h1>Welcome to MelodyVerse!</h1>
                 <p>
