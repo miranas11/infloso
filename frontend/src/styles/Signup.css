@@ -28,7 +28,7 @@
     margin-bottom: 20px;
     font-size: 26px;
     font-weight: 600;
-    color: #f4f4f9;
+    color: rgb(224, 116, 134);
 }
 
 .signup-container form {
@@ -120,7 +120,7 @@
 }
 
 .login-link {
-    color: #1db954; /* Greenish color for the link */
+    color: #1db954;
     text-decoration: none;
     font-weight: 600;
 }
