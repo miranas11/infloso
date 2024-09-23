@@ -5,8 +5,10 @@
 ## Features
 
 -   **User Authentication**: JWT-based sign up and login.
-
 -   **User Session Management**: Secure session handling with JWT.
+-   **Redirection**:
+    -   If a JWT token is stored (i.e., the user is already logged in), the `/login` and `/signup` routes automatically redirect to the `/home` .
+    -   If the user is not logged in, accessing `/home` will redirect to the login page.
 
 ## Tech Stack
 
